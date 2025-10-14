@@ -2596,3 +2596,19 @@
   - type: Icon
     sprite: Objects/Consumable/Drinks/bacchusblessing.rsi
     state: icon
+
+- type: entity
+  parent: DrinkGlass
+  id: DrinkSweetReveng
+  suffix: sweet revenge
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: SweetRevenge
+          Quantity: 30
+  - type: Icon
+    sprite: Objects/Consumable/Drinks/sweetrevenge.rsi
+    state: icon

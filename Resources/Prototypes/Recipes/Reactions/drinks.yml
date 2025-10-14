@@ -1555,3 +1555,15 @@
       amount: 1
   products:
     BacchusBlessing: 4
+
+ type: reaction
+  id: SweetRevenge
+  reactants:
+    Whiskey:
+       amount: 3
+    JuiceBerry:
+        amount: 2
+    Ice:
+        amount: 1
+  products:
+    SweetRevenge: 6
